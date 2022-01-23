@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Entities.Room&apos; to &apos;Rent&apos;&#x0D;&#x0A;- Original project: &apos;pooArraysRentedRooms&apos;&#x0D;&#x0A;- Original element: &apos;Entities.Room&apos;&#x0D;&#x0A;- Renamed element: &apos;Entities.Rent&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Room&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Entities{Room.java[Room" matchStrategy="1" name="Rent" qualified="false" references="true" similarDeclarations="false" stamp="1642175980327" textual="false" version="1.0"/>
+</session>

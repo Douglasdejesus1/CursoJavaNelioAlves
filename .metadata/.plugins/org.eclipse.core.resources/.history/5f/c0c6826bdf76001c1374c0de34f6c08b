@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x=20;
+		Object obj=x;
+		
+		
+		static void dizer() {
+			System.out.println("Olá, meu criador,Douglas");
+		}
+		
+		
+		System.out.println();
+		dizer();
+			
+	}
+
+}
