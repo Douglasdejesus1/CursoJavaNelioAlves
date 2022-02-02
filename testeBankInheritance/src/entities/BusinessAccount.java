@@ -20,7 +20,7 @@ public class BusinessAccount extends Account{
 	
 	public void loan(double amount) {
 		if (amount <= loanLimit) {
-			balance+= amount -10;
+			balance+= amount -30;
 			
 		}
 	}
