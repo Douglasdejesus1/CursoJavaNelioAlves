@@ -79,6 +79,4 @@ public class Program {
 	//System.out.println(y.getBalance());
 	
 	}
-	
-
 }
