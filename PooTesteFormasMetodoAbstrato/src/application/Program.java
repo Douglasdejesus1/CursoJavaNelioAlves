@@ -24,7 +24,7 @@ public class Program {
 			System.out.print("Shape #"+i+" data:");
 			System.out.print("Retangule or Circle (r/c)?");
 			char cr =sc.next().charAt(0);
-			System.out.print("Color(BLACK/BLUE/RED");
+			System.out.print("Color(BLACK/BLUE/RED)");
 			Color color = Color.valueOf(sc.next());
 				if(cr=='r') {
 					System.out.print("Width: ");
