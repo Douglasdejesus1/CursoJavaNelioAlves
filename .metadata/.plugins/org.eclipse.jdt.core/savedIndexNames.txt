@@ -33,7 +33,6 @@ INDEX VERSION 1.131+C:\Temp\Logica-NelioAlves\ws-eclipse\.metadata\.plugins\org.
 3400065473.index
 3680418673.index
 2877068133.index
-1114637559.index
 3927496509.index
 4143593058.index
 4137146877.index
