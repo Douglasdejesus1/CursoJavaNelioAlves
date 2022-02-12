@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
-	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-17"/>
+	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-10"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<item key="TypeHierarchyViewPart.hierarchyview" value="2"/>
 	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
 	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
 	<item key="TypeHierarchyViewPart.orientation" value="3"/>
+	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\Users\Douglas\Desktop\teste java"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -24,6 +25,10 @@
 		<item key="create_unimplemented" value="true"/>
 	</section>
 	<section name="completion_proposal_size">
+		<item key="size.x" value="538"/>
+		<item key="size.y" value="318"/>
+		<item key="contextSelector.size.x" value="337"/>
+		<item key="contextSelector.size.y" value="277"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -86,5 +91,15 @@
 		<item key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT" value="400"/>
 		<item key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+	</section>
+	<section name="AddUnimplementedConstructorsDialog">
+		<item key="OmitCallToSuper" value="false"/>
+	</section>
+	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
+		<item key="DIALOG_X_ORIGIN" value="870"/>
+		<item key="DIALOG_Y_ORIGIN" value="117"/>
+		<item key="DIALOG_WIDTH" value="678"/>
+		<item key="DIALOG_HEIGHT" value="806"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
