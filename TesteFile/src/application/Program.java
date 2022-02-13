@@ -7,9 +7,10 @@ import java.util.Scanner;
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		File file = new File("C:\\Users\\Douglas\\Desktop\\new paste\\JavaTexto.txt");
-		Scanner sc = null;
+		Scanner sc = new Scanner(System.in);
+		String sourceFileStr = sc.nextLine();
+		File file = new File(sourceFileStr);
+		
 		
 		try {
 			sc = new Scanner(file);
@@ -24,6 +25,8 @@ public class Program {
 			if (sc != null){
 				sc.close();
 			}
+		
+		
 		}
 			
 	}

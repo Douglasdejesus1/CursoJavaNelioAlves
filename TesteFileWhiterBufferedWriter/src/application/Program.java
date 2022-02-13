@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+
 public class Program {
 
 	public static void main(String[] args) {
@@ -14,8 +15,11 @@ public class Program {
 		
 		try(BufferedWriter bw = new BufferedWriter(new FileWriter(path))){
 			for(String line: lines) {
-				bw.write(line);
-				bw.newLine();
+				String[] fields = line.split(",");
+				String name = fields[0];
+				double price = Double.parseDouble(fields[1]);
+				int quantity = Integer.parseInt(fields[2]);
+
 			}	
 		}
 		catch(IOException e) {

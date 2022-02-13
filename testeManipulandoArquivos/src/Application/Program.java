@@ -12,7 +12,7 @@ public class Program {
 		String strPath= sc.nextLine();
 
 		File path = new File(strPath);
-		File[] folders = path.listFiles(File::isDirectory);
+		/* File[] folders = path.listFiles(File::isDirectory);
 		System.out.println("FOLDER: ");
 		for(File folder : folders) {
 			System.out.println(folder);
@@ -23,8 +23,17 @@ public class Program {
 			System.out.println(file);
 		}
 		
-		boolean success = new File(strPath +"\\subdir").mkdir();
+		*/
+
+		
+		System.out.println("Name:" + path.getName());
+		System.out.println("Parent:" + path.getParent());
+		System.out.println("Path:" + path.getPath());
+		
+		boolean success = new File(path.getPath() +"\\subdir").mkdir();
 		System.out.println("Directory created sucessfully: "+ success);
+		
+		
 		sc.close();
 	}
 
