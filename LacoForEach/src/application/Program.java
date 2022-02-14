@@ -10,7 +10,7 @@ public class Program {
 				System.out.println(vect[i]);
 			}
 			for (String obj:vect) {
-				System.out.print(" "+obj+" "+obj);
+				System.out.print(obj+" "+obj+" ");
 			}
 		}
 

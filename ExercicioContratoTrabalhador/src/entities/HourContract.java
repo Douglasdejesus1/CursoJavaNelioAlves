@@ -1,5 +1,6 @@
 package entities;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class HourContract {
@@ -10,7 +11,7 @@ public class HourContract {
 	
 	public HourContract() {
 	}
-	
+	SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy HH/mm");
 	public HourContract(Date date, Double valuePerHour, Integer hours) {
 		this.date = date;
 		this.valuePerHour = valuePerHour;
