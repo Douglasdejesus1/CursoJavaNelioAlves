@@ -18,18 +18,18 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc=new Scanner(System.in);
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy HH:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy HH:mm");
 		
 		System.out.println("Enter rental data");
 		System.out.print("Car model: ");
 		String carModel=sc.nextLine();
 		
-		System.out.print("Pickup (dd/MM/yyy hh:ss):");
+		System.out.print("Pickup (dd/MM/yyy hh:mm):");
 		Date start = sdf.parse(sc.nextLine());
 		
-		System.out.print("Return (dd/MM/yyy hh:ss):");
+		System.out.print("Return (dd/MM/yyy hh:mm):");
 		Date finish = sdf.parse(sc.nextLine());
-		CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
+		CarRental cr = new CarRental(start, finish, new Vehicle(carModel)); 
 		
 		
 		
