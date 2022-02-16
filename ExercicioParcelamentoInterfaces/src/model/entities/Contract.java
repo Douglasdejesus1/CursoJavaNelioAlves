@@ -52,11 +52,5 @@ public class Contract {
 		return installmensts;
 	}
 
-	public void setInstallmensts(List<Installment> installmensts) {
-		this.installmensts = installmensts;
-	}
-	
-	
-	
-	
+		
 }

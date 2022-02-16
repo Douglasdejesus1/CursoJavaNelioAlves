@@ -5,9 +5,10 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
+import entities.AbstractShape;
 import entities.Circle;
-import entities.Shape;
 import entities.Rectangle;
+import entities.Shape;
 import entities.enums.Color;
 
 public class Program {
@@ -16,7 +17,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc=new Scanner(System.in);
 		
-		List<Shape>list=new ArrayList<>();
+		List<AbstractShape>list=new ArrayList<>();
 		
 		System.out.print("Enter the number of shapes: ");
 		int N=sc.nextInt();
@@ -41,8 +42,8 @@ public class Program {
 		}
 			System.out.println();
 			System.out.println("SHAPE AREAS:");
-			for (Shape shape: list) {
-				System.out.println(String.format("%.2f",shape.area()));
+			for (AbstractShape shape: list) {
+				System.out.println(String.format("%.2f",shape.area())+"Color: "+shape.getColor());
 			}
 			
 				
