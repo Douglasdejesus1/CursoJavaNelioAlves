@@ -43,7 +43,7 @@ public class Program {
 			System.out.println();
 			System.out.println("SHAPE AREAS:");
 			for (AbstractShape shape: list) {
-				System.out.println(String.format("%.2f",shape.area())+"Color: "+shape.getColor());
+				System.out.println(String.format("%.2f",shape.area())+" Color: "+shape.getColor());
 			}
 			
 				
