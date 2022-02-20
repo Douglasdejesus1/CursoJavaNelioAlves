@@ -1,20 +1,21 @@
-
 package application;
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 import java.util.Set;
+
+import entities.Product;
 
 public class Program {
 	public static void main(String[] args) {
-		Set<String> set = new LinkedHashSet<>();
-		set.add("Tv");
-		set.add("Tablet");
-		set.add("Notebook");
-	
 		
-		set.removeIf(x -> x.charAt(0)=='T');
-		for (String p : set) {
-			System.out.println(p);
-		}
+		Set<Product> set = new HashSet<>();
+		
+		set.add(new Product("TV", 900.0));
+		set.add(new Product("Notebook", 1200.0));
+		set.add(new Product("Tablet", 400.0));
+		
+		Product prod = new Product("Notebook", 1200.0);
+		
+		System.out.println(set.contains(prod));
 	}
 }
