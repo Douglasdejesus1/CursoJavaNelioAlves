@@ -24,9 +24,14 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-	public boolean nonStaticProductPredicate() {
-		return price>=100.0;
+
+	public static void staticPriceUpdate(Product p) {
+		p.setPrice(p.getPrice()*1.2);
 	}
+	public void nonStaticPriceUpdate() {
+		setPrice(getPrice()*1.2);
+	}
+	
 	@Override
 	public String toString() {
 		return name +", "+String.format("%.02f",price);
