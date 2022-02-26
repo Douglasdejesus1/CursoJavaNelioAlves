@@ -1,0 +1,17 @@
+package application;
+
+import java.sql.Connection;
+
+import db.DB;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Connection conn = DB.getConnection();
+		
+		DB.closeConnection();
+		System.out.println("My first mysql conection is ok");
+
+	}
+
+}
