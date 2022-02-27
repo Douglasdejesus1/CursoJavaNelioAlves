@@ -22,10 +22,10 @@ public class Program {
 	if (response=='y'){
 		System.out.print("Enter initial deposit value: ");
 		double initialDeposit = sc.nextDouble();	
-		 account = new Account(number,holder, initialDeposit);
+		account = new Account(number,holder, initialDeposit);
 	}
 	else{
-		 account = new Account(number, holder);
+		account = new Account(number, holder);
 	}
 	
 	System.out.println();
