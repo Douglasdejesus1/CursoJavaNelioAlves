@@ -24,8 +24,8 @@ public class Program {
 					+ "WHERE "
 			        + "(DepartmentId = ?)");
 
-			st.setDouble(1, -200.0);
-			st.setInt(2, 2);
+			st.setDouble(1, -499.0);
+			st.setInt(2, 4);
 			
 			int rowsAffected = st.executeUpdate();
 			System.out.println("Done! Rows addected: "+ rowsAffected);					
